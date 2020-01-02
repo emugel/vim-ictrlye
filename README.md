@@ -1,12 +1,9 @@
 # Operator-pending CTRL-E and CTRL-Y in insert mode
 
-Public domain 
-
-Beta-version, usable but still not very perfect 
-(you have to wait a second or so before entering the {motion})
-
 This plugins replaces good old insert mode CTRL-E and CTRL-Y 
-with more powerful operator-pending, enable {motion}. 
+with more powerful operator-pending, enable `{motion}`. 
+
+## what it does
 
 Classic behaviour for those is that while in insert mode, *i_CTRL-E* inserts
 the character which is below the cursor, while *i_CTRL-Y* inserts the character
@@ -26,9 +23,8 @@ down and then use a {motion}.
 
 ## EXAMPLES   
 
-    Some simple examples. 
-    1st line represents the above line, 2nd line is the current line, with the
-pipe representing the cursor. 3rd line is the input, 4th line is the result.
+Some simple examples. 
+1st line represents the above line, 2nd line is the current line, with the pipe representing the cursor. 3rd line is the input, 4th line is the result.
 
     > wigums slaps around with a large trout.   > Been working all day (tired)
     > wigums|                                   > Sparing no efforts |
@@ -40,3 +36,8 @@ pipe representing the cursor. 3rd line is the input, 4th line is the result.
     CTRL-Y t,  (till comma)
     > People can fly
     
+## Beta-version, usable but still not very perfect 
+
+You have to wait a bit before entering the {motion}, it would need, in order to be a really good replacement for stock iCtrl-E and iCtrl-Y, to be able to work when iCtrl-E/Y are continuously pressed. 
+
+If you happen to know how drop me a line!
